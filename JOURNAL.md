@@ -41,3 +41,15 @@ Let's wire the schematic for the PMIC!
 Since there isn't a symbol for the nPM1300, I guess I will create my own.
 
 ![creating nPM1300 symbol](assets/creating-pm-symbol.png)
+
+# Jun 24, 2025 | 12:30 - 16:30 | finished making nPM1300 symbol and wiring
+
+finally done :pff:
+
+![npm1300 symbol](assets/pm-sym.png)
+
+since we have 3 led channel, we can use a single RGB LED to get different colors: [https://lcsc.com/product-detail/RGB-LEDs_TCWIN-TC5050RGBF08-3CJH-AF53A_C784540.html](https://lcsc.com/product-detail/RGB-LEDs_TCWIN-TC5050RGBF08-3CJH-AF53A_C784540.html)
+
+finished wiring the PMIC yay! lets start wiring up the MCU.
+
+![npm1300 finished wiring](assets/pm-sch-done.png)
